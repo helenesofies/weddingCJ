@@ -1,0 +1,100 @@
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.radioButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contactInfo input {
+    width: 24vw;
+}
+
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sectionTwo input {
+    width: 50vw;
+}
+
+.submitButton {
+    background-color: #024108;
+    width: 156px;
+    margin-top: 24px;
+}
+
+.addButton{
+    color: var(--text-dark);
+    background-color: #FAF6F0;
+    border: none;
+    text-align: left;
+    margin-top: -16px;
+}
+
+.removeButton {
+    background-color: #024108;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+}
+
+.submitted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-serif);
+    height: 50vh;
+    width: 60vw;
+    background-color: hsla(126, 94%, 13%, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .contactInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .contactInfo input {
+        width: 90vw;
+    }
+
+    .sectionTwo {
+        gap: 16px;
+    }
+
+    .sectionTwo input{
+        width: 90vw;
+    }
+
+    .submitButton{
+        width: 90vw;
+        margin-top: 4px;
+    }
+
+    .submitted{
+
+        height: 50vh;
+        width: 90vw;
+
+    }
+
+
+}
