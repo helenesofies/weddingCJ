@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/Image';
+import Image from 'next/image';
 import styles from '../styles/About.module.css';
 import FlowerBranchOne from '../components/Images/FlowerBranchOne';
 import FlowerBranchTwo from '../components/Images/FlowerBranchTwo';

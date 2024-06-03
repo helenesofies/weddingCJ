@@ -8,10 +8,10 @@
   "dependencies": {
     "@formspark/use-formspark": "^0.1.39",
     "nex": "^2.0.22",
-    "next": "latest",
+    "next": "^14.2.3",
     "next-auth": "^4.24.7",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "engines": {
     "node": ">=18"
